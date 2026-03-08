@@ -17,8 +17,6 @@
 │   ├── hardware-configuration.nix
 │   ├── home
 │   │   ├── default.nix
-│   │   ├── dev
-│   │   │   └── rust.nix
 │   │   └── dotfiles
 │   │       ├── fcitx5
 │   │       │   └── ice.yaml
@@ -36,7 +34,7 @@
 │   │       │       ├── colors.kdl
 │   │       │       ├── cursor.kdl
 │   │       │       ├── layout.kdl
-│   │       │       ├── outputs.kdl
+│   │       │       ├── outputs.kdl -> /home/zetrium/.config/niri/dms/profiles/profile_1772955688477_juslzk.kdl
 │   │       │       ├── profiles
 │   │       │       │   └── profile_1772955688477_juslzk.kdl
 │   │       │       ├── windowrules.kdl
@@ -44,13 +42,30 @@
 │   │       └── zshconfig
 │   └── modules
 │       ├── desktop
+│       │   ├── default.nix
 │       │   └── niri.nix
-│       ├── drivers
+│       ├── dev
+│       │   ├── default.nix
+│       │   └── rust.nix
+│       ├── hardware
+│       │   ├── audio.nix
+│       │   ├── default.nix
 │       │   └── nvidia.nix
-│       ├── fonts.nix
-│       ├── im
+│       ├── localization
+│       │   ├── default.nix
+│       │   ├── fonts.nix
 │       │   └── rime-ice.nix
-│       └── zsh.nix
+│       ├── shell
+│       │   ├── default.nix
+│       │   └── zsh.nix
+│       └── system
+│           ├── boot.nix
+│           ├── default.nix
+│           ├── environment.nix
+│           ├── network.nix
+│           ├── nixos.nix
+│           ├── security.nix
+│           └── users.nix
 ├── LICENSE
 └── README.md
 ```
