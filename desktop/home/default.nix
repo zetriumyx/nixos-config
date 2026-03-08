@@ -43,7 +43,7 @@
 
     zsh-autosuggestions
     zsh-syntax-highlighting
-  
+    siyuan
     vscode
     zed-editor
     jetbrains.rust-rover
@@ -116,6 +116,7 @@
     settings = {
       user.name = "Zetrium Zurain";
       user.email = "zetrium@outlook.com";
+      init.defaultBranch = "main";
     };
   };
 
