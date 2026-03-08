@@ -40,7 +40,7 @@
     xz
     unzip
     p7zip
-
+    pinentry-tty
     zsh-autosuggestions
     zsh-syntax-highlighting
     siyuan
