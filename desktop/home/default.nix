@@ -47,13 +47,12 @@
     vscode
     zed-editor
     jetbrains.rust-rover
-
+    ccal
     localsend
     just
     asusctl
     supergfxctl
 
-    rustup
         
     clash-verge-rev
     vicinae

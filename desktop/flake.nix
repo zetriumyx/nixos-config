@@ -19,14 +19,17 @@
       skylight = nixpkgs.lib.nixosSystem {
         modules = [
           (import hardware-config)
-          ./configuration.nix
-          ./modules/desktop/niri.nix
-          ./modules/zsh.nix
+          (import ./modules/system)
+          (import ./modules/localization)
+          (import ./modules/desktop)
+          (import ./modules/localization)
+          (import ./modules/shell)
+          (import ./modules/dev)
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.zetrium = import ./home/default.nix;
+            home-manager.users.zetrium = import ./home;
             home-manager.extraSpecialArgs = inputs;
           }
         ];
