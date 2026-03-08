@@ -10,3 +10,4 @@ zstyle :compinstall filename '/home/zetrium/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+eval "$(zoxide init zsh)"
