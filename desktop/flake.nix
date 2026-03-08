@@ -25,6 +25,7 @@
           (import ./modules/localization)
           (import ./modules/shell)
           (import ./modules/dev)
+          (import ./modules/hardware)
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
