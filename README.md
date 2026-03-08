@@ -3,7 +3,7 @@
 * To backup my personal configuration of nixos running on a personal computer.
 * To sync my nixos configurations amoung devices(if there are)
 ## Structure
-'''bash
+```bash
 .
 ├── desktop
 │   ├── configuration.nix
@@ -31,7 +31,7 @@
 │   │       │       ├── colors.kdl
 │   │       │       ├── cursor.kdl
 │   │       │       ├── layout.kdl
-│   │       │       ├── outputs.kdl -> /home/zetrium/.config/niri/dms/profiles/profile_1772955688477_juslzk.kdl
+│   │       │       ├── outputs.kdl
 │   │       │       ├── profiles
 │   │       │       │   └── profile_1772955688477_juslzk.kdl
 │   │       │       ├── windowrules.kdl
@@ -48,4 +48,4 @@
 │       └── zsh.nix
 ├── LICENSE
 └── README.md
-'''
+```
