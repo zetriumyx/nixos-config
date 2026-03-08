@@ -3,7 +3,6 @@
 {
   imports =
     [
-      ./hardware-configuration.nix
       ./modules/im/rime-ice.nix
       ./modules/drivers/nvidia.nix
       ./modules/fonts.nix

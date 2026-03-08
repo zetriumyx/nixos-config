@@ -1,5 +1,18 @@
 {
   "nodes": {
+    "hardware-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1772972338,
+        "narHash": "sha256-DzMNe4JC3zfCA2IJMcqy9ky3qPzh/32MX1e/SOfbnto=",
+        "path": "/home/zetrium/nixos-config/desktop/hardware-configuration.nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/zetrium/nixos-config/desktop/hardware-configuration.nix",
+        "type": "path"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -40,6 +53,7 @@
     },
     "root": {
       "inputs": {
+        "hardware-config": "hardware-config",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs"
       }
