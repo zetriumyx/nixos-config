@@ -1,9 +1,14 @@
 # NixOS configuration
+
 ## Purpose
+
 * To backup my personal configuration of nixos running on a personal computer.
+
 * To sync my nixos configurations amoung devices(if there are)
+
 ## Structure
-```bash
+
+```text
 .
 ├── desktop
 │   ├── configuration.nix
