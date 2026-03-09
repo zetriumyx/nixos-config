@@ -15,7 +15,7 @@
 
     # network
     localsend clash-verge-rev aria2 socat nmap
-    rustdesk
+    
     # utils
     vicinae ripgrep zoxide fzf eza mtr just file sd tree which
     nix-output-monitor hugo
