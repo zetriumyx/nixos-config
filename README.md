@@ -11,30 +11,27 @@
 ```text
 .
 ├── desktop
-│   ├── configuration.nix
 │   ├── flake.lock
 │   ├── flake.nix
 │   ├── hardware-configuration.nix
 │   ├── home
+│   │   ├── applications
+│   │   │   ├── apps.nix
+│   │   │   ├── config.nix
+│   │   │   └── default.nix
 │   │   ├── default.nix
 │   │   └── dotfiles
 │   │       ├── fcitx5
 │   │       │   └── ice.yaml
 │   │       ├── niri
 │   │       │   ├── config.kdl
-│   │       │   ├── config.kdl.backup1772953503
-│   │       │   ├── config.kdl.backup1772953504
-│   │       │   ├── config.kdl.backup1772953511
-│   │       │   ├── config.kdl.backup1772953512
-│   │       │   ├── config.kdl.backup1772953513
-│   │       │   ├── config.kdl.backup.2026-03-08_14-49-21
 │   │       │   └── dms
 │   │       │       ├── alttab.kdl
 │   │       │       ├── binds.kdl
 │   │       │       ├── colors.kdl
 │   │       │       ├── cursor.kdl
 │   │       │       ├── layout.kdl
-│   │       │       ├── outputs.kdl -> /home/zetrium/.config/niri/dms/profiles/profile_1772955688477_juslzk.kdl
+│   │       │       ├── outputs.kdl
 │   │       │       ├── profiles
 │   │       │       │   └── profile_1772955688477_juslzk.kdl
 │   │       │       ├── windowrules.kdl
@@ -45,6 +42,7 @@
 │       │   ├── default.nix
 │       │   └── niri.nix
 │       ├── dev
+│       │   ├── common.nix
 │       │   ├── default.nix
 │       │   └── rust.nix
 │       ├── hardware
