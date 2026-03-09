@@ -13,10 +13,9 @@
         source ${pkgs.zsh-syntax-highlighting}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
       ";
     shellAliases = {
-      flakedit = "sudo hx /etc/nixos/flake.nix";
-      homedit = "sudo hx /etc/nixos/home/default.nix";
+      flakedit = "hx /home/zetrium/nixos-config/desktop/flake.nix";
+      homedit = "hx /home/zetrium/nixos-config/desktop/home/default.nix";
       sysup = "sudo nixos-rebuild switch --upgrade";
-      sysconfig = "sudo hx /etc/nixos/configuration.nix";
       spkgs = "nix search nixpkgs";
     };
   };

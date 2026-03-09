@@ -3,6 +3,7 @@
 {
   imports = [
     ./rust.nix
+    ./common.nix
   ];
   dev.rust.enable = true;
 }
