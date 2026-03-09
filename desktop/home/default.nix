@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+
+  imports = [
+    (import ./applications)
+  ];
+  
   # 注意修改这里的用户名与用户目录
   home.username = "zetrium";
   home.homeDirectory = "/home/zetrium";
