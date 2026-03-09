@@ -11,8 +11,3 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 eval "$(zoxide init zsh)"
-
-# 仅在图形会话（X11 或 Wayland）中自动切换到中文 locale
-if [ -n "$DISPLAY" ] || [ -n "$WAYLAND_DISPLAY" ]; then
-    export LANG=zh_CN.UTF-8
-fi
