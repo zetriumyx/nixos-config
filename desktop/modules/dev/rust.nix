@@ -14,6 +14,7 @@ in
       cargo-nextest
       cargo-edit
       cargo-watch
+      cargo-make
       taplo
     ];
     environment.sessionVariables = {
