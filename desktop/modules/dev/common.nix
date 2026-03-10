@@ -5,5 +5,6 @@
     vscode
     zed-editor
     jetbrains.rust-rover
+    libgcc
   ];
 }

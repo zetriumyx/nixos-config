@@ -11,7 +11,7 @@
     zsh-syntax-highlighting
 
     # life QoL
-    siyuan ccal typst tinymist rustdesk-flutter
+    siyuan ccal typst tinymist rustdesk-flutter obsidian
 
     # network
     localsend clash-verge-rev aria2 socat nmap easytier
