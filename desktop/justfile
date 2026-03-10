@@ -4,5 +4,5 @@ sync commit:
   echo "Syncing with github repositry"
   git add .
   git commit -m "{{commit}}"
-  git push origin/main
+  git push origin main
   echo "Sync succeed with commit '{{commit}}'!"
