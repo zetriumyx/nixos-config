@@ -4,3 +4,6 @@ sync commit:
   git add .
   git commit -m "{{commit}}"
   git push origin main
+stage commit:
+  git add .
+  git commit -m "{{commit}}"
