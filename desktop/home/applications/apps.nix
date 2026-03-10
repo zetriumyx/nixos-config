@@ -11,10 +11,10 @@
     zsh-syntax-highlighting
 
     # life QoL
-    siyuan ccal typst tinymist rustdesk
+    siyuan ccal typst tinymist rustdesk-flutter
 
     # network
-    localsend clash-verge-rev aria2 socat nmap
+    localsend clash-verge-rev aria2 socat nmap easytier
     
     # utils
     vicinae ripgrep zoxide fzf eza mtr just file sd tree which

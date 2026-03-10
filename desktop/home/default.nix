@@ -36,7 +36,7 @@
     ".zshrc".source = ./dotfiles/zshconfig;
     ".local/share/fcitx5/rime/default.custom.yaml".source = ./dotfiles/fcitx5/ice.yaml;
     ".config/niri/".source = ./dotfiles/niri;
-    ".cargo/config.toml" = ./dotfiles/cargo.toml;
+    ".cargo/config.toml".source = ./dotfiles/cargo.toml;
   };
 
   home.stateVersion = "25.11";
