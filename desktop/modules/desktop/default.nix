@@ -13,5 +13,7 @@
       variant = "";
     };
   };
-
+  programs.xwayland = {
+    enable = true;
+  };
 }

@@ -29,5 +29,8 @@
 
     # laptop
     asusctl supergfxctl
+
+    # game
+    mindustry-wayland
   ];
 }
