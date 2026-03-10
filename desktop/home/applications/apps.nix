@@ -10,8 +10,8 @@
     zsh-autosuggestions
     zsh-syntax-highlighting
 
-    # life
-    siyuan ccal
+    # life QoL
+    siyuan ccal typst tinymist rustdesk
 
     # network
     localsend clash-verge-rev aria2 socat nmap
